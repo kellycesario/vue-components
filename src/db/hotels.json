@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "Burj Al Arab",
+    "location": "Dubai",
+    "price": 1.331,
+    "rate": 4.8,
+    "image": "src/assets/images/hotels/burj-al-arab.avif",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "2",
+    "title": "The Plaza Hotel",
+    "location": "New York City",
+    "price": 1.242,
+    "rate": 4.7,
+    "image": "src/assets/images/hotels/plaza-hotel.jpg",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "3",
+    "title": "Marina Bay Sands",
+    "location": "Singapore",
+    "price": 300,
+    "rate": 4.6,
+    "image": "src/assets/images/hotels/marina-bay.webp",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "4",
+    "title": "Brown's Hotel",
+    "location": "London",
+    "price": 1.201,
+    "rate": 4.6,
+    "image": "src/assets/images/hotels/brown's-hotel.webp",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "5",
+    "title": "Atlantis Bahamas",
+    "location": "Nassau",
+    "price": 1.1,
+    "rate": 4.5,
+    "image": "src/assets/images/hotels/atlantis-bahamas.jpg",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "6",
+    "title": "The Beverly Hills Hotel",
+    "location": "Beverly Hills",
+    "price": 1.395,
+    "rate": 4.5,
+    "image": "src/assets/images/hotels/beverly-hills.jpg",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "7",
+    "title": "Copacabana Palace",
+    "location": "Rio de Janeiro",
+    "price": 470,
+    "rate": 4.5,
+    "image": "src/assets/images/hotels/copacabana-palace.webp",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "8",
+    "title": "The Brando",
+    "location": "Tahiti",
+    "price": 980,
+    "rate": 4.4,
+    "image": "src/assets/images/hotels/the-brando.jpg",
+    "to": "/hotels/:id"
+  },
+  {
+    "id": "9",
+    "title": "La Mamounia",
+    "location": "Marrakech",
+    "price": 745,
+    "rate": 4.4,
+    "image": "src/assets/images/hotels/la-mamounia.jpg",
+    "to": "/hotels/:id"
+  }
+]
