@@ -7,9 +7,7 @@ export default defineConfig({
   plugins: [vue()],
   resolve: {
     alias: {
-      "@ions": fileURLToPath(
-        new URL("./src/components/ions", import.meta.url)
-      ),
+      "@ions": fileURLToPath(new URL("./src/components/ions", import.meta.url)),
       "@atoms": fileURLToPath(
         new URL("./src/components/atoms", import.meta.url)
       ),
@@ -19,7 +17,6 @@ export default defineConfig({
       "@organisms": fileURLToPath(
         new URL("./src/components/organisms", import.meta.url)
       ),
-      "@images": fileURLToPath(new URL("./public/images", import.meta.url)),
       "@styles": fileURLToPath(new URL("./src/assets/styles", import.meta.url)),
       "@db": fileURLToPath(new URL("./src/db", import.meta.url)),
       "@views": fileURLToPath(new URL("./src/views", import.meta.url)),

@@ -1,7 +1,7 @@
 <script setup>
 import Button from "@atoms/Button/index.vue";
 import Text from "@atoms/Text/index.vue";
-import discover from "@images/discover.png";
+import discover from "/images/discover.png";
 </script>
 
 <template>

@@ -1,7 +1,7 @@
 <script setup>
 import Hero from "@molecules/Hero/index.vue";
 import CardsWrapper from "@organisms/CardsWrapper/index.vue";
-import banner from "@images/hero-banner2.jpg";
+import banner from "/images/hero-banner2.jpg";
 
 </script>
 <template>

@@ -1,6 +1,6 @@
 <script setup>
 import Text from "@atoms/Text/index.vue";
-import banner from "@images/hero-banner.png";
+import banner from "/images/hero-banner.png";
 
 const headline = defineProps({
   title: {

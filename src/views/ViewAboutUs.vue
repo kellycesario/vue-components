@@ -1,7 +1,7 @@
 <script setup>
 import Hero from "@molecules/Hero/index.vue";
 import Facilities from "@organisms/Facilities/index.vue";
-import banner from "@images/hero-banner3.webp";
+import banner from "/images/hero-banner3.webp";
 
 </script>
 <template>
