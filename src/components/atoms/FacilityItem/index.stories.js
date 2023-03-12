@@ -5,9 +5,9 @@ export default {
   title: "Atoms/FacilityItem",
   component: FacilityItem,
   args: {
-    label: "Swimming Pool",
-    icon: "#swimmer",
-    to: "#",
+    icon: "#instagram",
+    label: "Restaurant",
+    to: "/",
   },
   argTypes: {
     icon: {
@@ -21,7 +21,8 @@ export default {
       },
     },
   },
-  decorators: [],
+  
 };
 
 export const Default = {};
+

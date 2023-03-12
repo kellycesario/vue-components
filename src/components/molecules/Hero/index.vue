@@ -1,28 +1,25 @@
 <script setup>
 import Text from "@atoms/Text/index.vue";
+import banner from "@images/hero-banner.png";
 
 const headline = defineProps({
   title: {
     type: String,
     default: "Find your perfect place to stay",
-    required: true,
   },
   text: {
     type: String,
     default:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    required: true,
   },
   video: {
     type: String,
     default: "https://www.youtube.com/watch?v=09839DpTctU&ab_channel=Eagles",
-    required: true,
   },
   image: {
     type: String,
-    default: "src/assets/images/hero-banner.png",
-    required: true,
-  }
+    default: banner,
+  },
 });
 </script>
 <template>
@@ -34,12 +31,7 @@ const headline = defineProps({
         <svg width="56" height="56" viewBox="0 0 56 56">
           <use href="#play-video" xlinkHref="#play-video" />
         </svg>
-        <RouterLink
-          :to="video"
-          target="_blank"
-          class="hero__link"
-          >Watch video</RouterLink
-        >
+        <a :href="video" target="_blank" class="hero__link">Watch video</a>
       </div>
     </div>
     <img :src="image" alt="" class="hero__image" />

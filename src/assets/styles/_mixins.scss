@@ -12,6 +12,10 @@
   font-size: 1.4rem;
   line-height: 2.4rem;
   color: var(--white);
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1.8rem;
+  }
 }
 
 @mixin default-text {
@@ -99,7 +103,6 @@
 
 @mixin input {
   width: 100%;
-  background: var(--offWhite);
   border: none;
   min-height: 5.9rem;
   border-radius: 0.6rem;
@@ -109,7 +112,6 @@
   line-height: 3.2rem;
   color: var(--darkGray);
   padding-left: 2rem;
-
   font-family: "Open Sans", sans-serif;
-
+  border: 0.1rem solid var(--darkGray);
 }

@@ -1,11 +1,7 @@
-<script setup></script>
+<script setup>
+import CardDetail from "@molecules/CardDetail/index.vue";
+</script>
+
 <template>
-    <div class="dslkf">Hotel Details</div>
-    <p class="dslkf">{{ $route.params.id }}</p>
+  <CardDetail />
 </template>
-<style lang="scss" scoped>
-.dslkf {
-    font-size: large;
-    @include default-text;
-}
-</style>

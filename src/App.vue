@@ -1,7 +1,6 @@
 <script setup>
 import Svg from "@ions/Svg/index.vue";
 import Header from "@organisms/Header/index.vue";
-import Hero from "@molecules/Hero/index.vue";
 import Footer from "@organisms/Footer/index.vue";
 </script>
 

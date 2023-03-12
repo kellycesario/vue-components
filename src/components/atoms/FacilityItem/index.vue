@@ -4,16 +4,18 @@ const facilities = defineProps({
   icon: String,
   to: String,
 });
+
+
 </script>
 
 <template>
   <li class="item">
-    <a :href="to" class="item">
+    <RouterLink :to="to" class="item">
       <svg width="40" height="40" viewBox="0 0 56 56">
         <use :href="icon" :xlinkHref="icon" />
       </svg>
       <p class="item__label">{{ label }}</p>
-    </a>
+    </RouterLink>
   </li>
 </template>
 
@@ -39,7 +41,6 @@ const facilities = defineProps({
     text-align: center;
   }
 
-  
   &:hover {
     box-shadow: 0rem 0rem 1rem var(--borderBlack);
   }

@@ -1,16 +1,13 @@
 <script setup>
 import Button from "@atoms/Button/index.vue";
 import Text from "@atoms/Text/index.vue";
+import discover from "@images/discover.png";
 </script>
 
 <template>
   <section class="discover">
     <article class="discover__container">
-      <img
-        src="src/assets/images/discover.png"
-        alt=""
-        class="discover__image"
-      />
+      <img :src="discover" alt="" class="discover__image" />
       <div class="discover__box">
         <h2 class="discover__title">Discover our History</h2>
         <Text

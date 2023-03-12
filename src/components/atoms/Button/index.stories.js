@@ -17,6 +17,11 @@ export default {
         disable: true,
       },
     },
+    type: {
+      table: {
+        disable: true,
+      },
+    },
   },
 };
 

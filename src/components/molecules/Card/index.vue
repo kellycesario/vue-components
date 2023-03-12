@@ -5,12 +5,12 @@ const card = defineProps({
   title: String,
   price: Number,
   rate: Number,
-  to: String,
+  id: String
 });
 </script>
 
 <template>
-  <a :href="to" target="_blank">
+  <RouterLink :to="'/hotels/' + id" target="_blank">
     <article class="card">
       <img :src="image" alt="" class="card__image" />
       <p class="card__location">{{ location }}</p>
@@ -20,10 +20,10 @@ const card = defineProps({
         <p class="card__rate">{{ rate }}</p>
       </div>
     </article>
-  </a>
+  </RouterLink>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .card {
   display: flex;
   flex-direction: column;

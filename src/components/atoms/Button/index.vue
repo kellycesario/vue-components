@@ -15,9 +15,9 @@ const button = defineProps({
     {{ label }}
   </button>
 
-  <RouterLink class="button" :label="label" v-else :to="to">
+  <a class="button" :label="label" v-else :href="to" target="_blank">
     {{ label }}
-  </RouterLink>
+  </a>
 </template>
 
 <style lang="scss" scoped>

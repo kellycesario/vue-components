@@ -4,37 +4,31 @@ import database from "@db/hotels.json";
 import Text from "@atoms/Text/index.vue";
 import Button from "@atoms/Button/index.vue";
 
-const headings = defineProps({
+const cards = defineProps({
   title: {
     type: String,
     default: "Our Most Popular Hotels",
-    required: true,
   },
   text: {
     type: String,
     default:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-    required: true,
   },
   label: {
     type: String,
     default: "View All",
-    required: true,
   },
   to: {
     type: String,
     default: "/hotels",
-    required: true,
   },
   startIndex: {
-    type: Number,
-    default: 0,
-    required: true,
+    type: String,
+    default: "0",
   },
   endIndex: {
-    type: Number,
-    default: 3,
-    required: true,
+    type: String,
+    default: "3",
   },
 });
 
@@ -56,7 +50,7 @@ const headings = defineProps({
         :price="data.price"
         :rate="data.rate"
         :image="data.image"
-        :to="data.to"
+        :id="data.id"
       />
     </article>
   </section>
